@@ -1,0 +1,167 @@
+[
+  {
+    "month": "2023-01",
+    "service": "AWS",
+    "resource_id": "i-0123456789abcdef0",
+    "region": "us-west-2",
+    "usage_type": "On-Demand",
+    "usage_quantity": 10,
+    "unit": "hours",
+    "cost_inr": 1500.0,
+    "desc": "EC2 instance usage"
+  },
+  {
+    "month": "2023-01",
+    "service": "PostgreSQL",
+    "resource_id": "db-0123456789abcdef0",
+    "region": "us-west-2",
+    "usage_type": "Provisioned",
+    "usage_quantity": 100,
+    "unit": "GB",
+    "cost_inr": 500.0,
+    "desc": "Database storage"
+  },
+  {
+    "month": "2023-01",
+    "service": "Nginx",
+    "resource_id": "lb-0123456789abcdef0",
+    "region": "us-west-2",
+    "usage_type": "On-Demand",
+    "usage_quantity": 5,
+    "unit": "hours",
+    "cost_inr": 750.0,
+    "desc": "Load balancer usage"
+  },
+  {
+    "month": "2023-01",
+    "service": "AWS",
+    "resource_id": "s3-0123456789abcdef0",
+    "region": "us-west-2",
+    "usage_type": "On-Demand",
+    "usage_quantity": 20,
+    "unit": "GB",
+    "cost_inr": 1000.0,
+    "desc": "S3 storage usage"
+  },
+  {
+    "month": "2023-01",
+    "service": "PostgreSQL",
+    "resource_id": "db-0123456789abcdef1",
+    "region": "us-west-2",
+    "usage_type": "Provisioned",
+    "usage_quantity": 50,
+    "unit": "GB",
+    "cost_inr": 1250.0,
+    "desc": "Database storage"
+  },
+  {
+    "month": "2023-01",
+    "service": "Nginx",
+    "resource_id": "lb-0123456789abcdef1",
+    "region": "us-west-2",
+    "usage_type": "On-Demand",
+    "usage_quantity": 10,
+    "unit": "hours",
+    "cost_inr": 500.0,
+    "desc": "Load balancer usage"
+  },
+  {
+    "month": "2023-01",
+    "service": "AWS",
+    "resource_id": "rds-0123456789abcdef0",
+    "region": "us-west-2",
+    "usage_type": "Provisioned",
+    "usage_quantity": 20,
+    "unit": "hours",
+    "cost_inr": 2000.0,
+    "desc": "RDS instance usage"
+  },
+  {
+    "month": "2023-01",
+    "service": "PostgreSQL",
+    "resource_id": "db-0123456789abcdef2",
+    "region": "us-west-2",
+    "usage_type": "Provisioned",
+    "usage_quantity": 75,
+    "unit": "GB",
+    "cost_inr": 1875.0,
+    "desc": "Database storage"
+  },
+  {
+    "month": "2023-01",
+    "service": "Nginx",
+    "resource_id": "lb-0123456789abcdef2",
+    "region": "us-west-2",
+    "usage_type": "On-Demand",
+    "usage_quantity": 15,
+    "unit": "hours",
+    "cost_inr": 750.0,
+    "desc": "Load balancer usage"
+  },
+  {
+    "month": "2023-01",
+    "service": "AWS",
+    "resource_id": "s3-0123456789abcdef1",
+    "region": "us-west-2",
+    "usage_type": "On-Demand",
+    "usage_quantity": 30,
+    "unit": "GB",
+    "cost_inr": 1500.0,
+    "desc": "S3 storage usage"
+  },
+  {
+    "month": "2023-01",
+    "service": "PostgreSQL",
+    "resource_id": "db-0123456789abcdef3",
+    "region": "us-west-2",
+    "usage_type": "Provisioned",
+    "usage_quantity": 100,
+    "unit": "GB",
+    "cost_inr": 2500.0,
+    "desc": "Database storage"
+  },
+  {
+    "month": "2023-01",
+    "service": "Nginx",
+    "resource_id": "lb-0123456789abcdef3",
+    "region": "us-west-2",
+    "usage_type": "On-Demand",
+    "usage_quantity": 20,
+    "unit": "hours",
+    "cost_inr": 1000.0,
+    "desc": "Load balancer usage"
+  },
+  {
+    "month": "2023-01",
+    "service": "AWS",
+    "resource_id": "rds-0123456789abcdef1",
+    "region": "us-west-2",
+    "usage_type": "Provisioned",
+    "usage_quantity": 25,
+    "unit": "hours",
+    "cost_inr": 2500.0,
+    "desc": "RDS instance usage"
+  },
+  {
+    "month": "2023-01",
+    "service": "PostgreSQL",
+    "resource_id": "db-0123456789abcdef4",
+    "region": "us-west-2",
+    "usage_type": "Provisioned",
+    "usage_quantity": 125,
+    "unit": "GB",
+    "cost_inr": 3125.0,
+    "desc": "Database storage"
+  },
+  {
+    "month": "2023-01",
+    "service": "Nginx",
+    "resource_id": "lb-0123456789abcdef4",
+    "region": "us-west-2",
+    "usage_type": "On-Demand",
+    "usage_quantity": 25,
+    "unit": "hours",
+    "cost_inr": 1250.0,
+    "desc": "Load balancer usage"
+  }
+]

@@ -1,0 +1,178 @@
+{
+  "project_name": "Real-Time Data Analytics Platform",
+  "analysis": {
+    "total_monthly_cost": 17500.0,
+    "budget": 5000,
+    "budget_variance": -12500.0,
+    "service_costs": {
+      "AWS": 10000.0,
+      "PostgreSQL": 6250.0,
+      "Nginx": 3000.0
+    },
+    "high_cost_services": {
+      "PostgreSQL": 6250.0,
+      "AWS": 10000.0
+    },
+    "is_over_budget": true
+  },
+  "recommendations": [
+    {
+      "title": "Migrate to PostgreSQL Free Tier",
+      "service": "PostgreSQL",
+      "current_cost": 6250.0,
+      "potential_savings": 3125.0,
+      "recommendation_type": "free_tier",
+      "description": "Migrate to PostgreSQL Free Tier to save 50% of the current cost.",
+      "implementation_effort": "medium",
+      "risk_level": "low",
+      "steps": [
+        "Stop the current PostgreSQL instance",
+        "Create a new PostgreSQL instance on Free Tier",
+        "Migrate the database to the new instance"
+      ],
+      "cloud_providers": [
+        "AWS",
+        "GCP"
+      ]
+    },
+    {
+      "title": "Optimize Nginx Usage",
+      "service": "Nginx",
+      "current_cost": 3000.0,
+      "potential_savings": 1500.0,
+      "recommendation_type": "optimization",
+      "description": "Optimize Nginx usage to reduce the current cost by 50%.",
+      "implementation_effort": "low",
+      "risk_level": "low",
+      "steps": [
+        "Monitor Nginx usage",
+        "Optimize Nginx configuration",
+        "Implement load balancing"
+      ],
+      "cloud_providers": [
+        "AWS",
+        "Azure"
+      ]
+    },
+    {
+      "title": "Use Open-Source Database",
+      "service": "PostgreSQL",
+      "current_cost": 6250.0,
+      "potential_savings": 6250.0,
+      "recommendation_type": "open_source",
+      "description": "Use an open-source database to save 100% of the current cost.",
+      "implementation_effort": "high",
+      "risk_level": "high",
+      "steps": [
+        "Stop the current PostgreSQL instance",
+        "Create a new open-source database instance",
+        "Migrate the database to the new instance"
+      ],
+      "cloud_providers": [
+        "GCP",
+        "Azure"
+      ]
+    },
+    {
+      "title": "Right-Size AWS Instance",
+      "service": "AWS",
+      "current_cost": 10000.0,
+      "potential_savings": 5000.0,
+      "recommendation_type": "right_sizing",
+      "description": "Right-size the AWS instance to reduce the current cost by 50%.",
+      "implementation_effort": "medium",
+      "risk_level": "low",
+      "steps": [
+        "Monitor AWS instance usage",
+        "Right-size the instance",
+        "Implement autoscaling"
+      ],
+      "cloud_providers": [
+        "AWS",
+        "GCP"
+      ]
+    },
+    {
+      "title": "Use Alternative Provider",
+      "service": "AWS",
+      "current_cost": 10000.0,
+      "potential_savings": 5000.0,
+      "recommendation_type": "alternative_provider",
+      "description": "Use an alternative provider to save 50% of the current cost.",
+      "implementation_effort": "high",
+      "risk_level": "high",
+      "steps": [
+        "Stop the current AWS instance",
+        "Create a new instance on an alternative provider",
+        "Migrate the application to the new instance"
+      ],
+      "cloud_providers": [
+        "Azure",
+        "GCP"
+      ]
+    },
+    {
+      "title": "Optimize PostgreSQL Configuration",
+      "service": "PostgreSQL",
+      "current_cost": 6250.0,
+      "potential_savings": 3125.0,
+      "recommendation_type": "optimization",
+      "description": "Optimize PostgreSQL configuration to reduce the current cost by 50%.",
+      "implementation_effort": "low",
+      "risk_level": "low",
+      "steps": [
+        "Monitor PostgreSQL usage",
+        "Optimize PostgreSQL configuration",
+        "Implement database replication"
+      ],
+      "cloud_providers": [
+        "AWS",
+        "Azure"
+      ]
+    },
+    {
+      "title": "Use Open-Source Load Balancer",
+      "service": "Nginx",
+      "current_cost": 3000.0,
+      "potential_savings": 1500.0,
+      "recommendation_type": "open_source",
+      "description": "Use an open-source load balancer to save 50% of the current cost.",
+      "implementation_effort": "high",
+      "risk_level": "high",
+      "steps": [
+        "Stop the current Nginx instance",
+        "Create a new open-source load balancer instance",
+        "Migrate the application to the new instance"
+      ],
+      "cloud_providers": [
+        "GCP",
+        "Azure"
+      ]
+    },
+    {
+      "title": "Right-Size Nginx Instance",
+      "service": "Nginx",
+      "current_cost": 3000.0,
+      "potential_savings": 1500.0,
+      "recommendation_type": "right_sizing",
+      "description": "Right-size the Nginx instance to reduce the current cost by 50%.",
+      "implementation_effort": "medium",
+      "risk_level": "low",
+      "steps": [
+        "Monitor Nginx usage",
+        "Right-size the instance",
+        "Implement autoscaling"
+      ],
+      "cloud_providers": [
+        "AWS",
+        "GCP"
+      ]
+    }
+  ],
+  "summary": {
+    "total_potential_savings": 17500.0,
+    "savings_percentage": 100.0,
+    "recommendations_count": 7,
+    "high_impact_recommendations": 4
+  }
+}

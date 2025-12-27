@@ -1,0 +1,17 @@
+{
+  "name": "Real-Time Data Analytics Platform",
+  "budget_inr_per_month": 5000,
+  "description": "Real-time data analytics platform for startups to monitor user activity and performance metrics.",
+  "tech_stack": {
+    "frontend": "React / Vue",
+    "backend": "Node.js / Python (FastAPI)",
+    "database": "PostgreSQL / MongoDB",
+    "proxy": "Nginx / Managed Load Balancer",
+    "hosting": "AWS / Azure"
+  },
+  "non_functional_requirements": [
+    "Scalable",
+    "Secure",
+    "Highly Available"
+  ]
+}
