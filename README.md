@@ -136,7 +136,29 @@ Generated outputs will appear in `data/`.
 
 ---
 
+---
+## 🛠️ Tools & References Used
+
+- **Groq LLM API** – Primary LLM inference platform  
+  https://groq.com
+
+- **ChatGPT (OpenAI)** – Used as a development assistant during implementation  
+  https://chat.openai.com
+
+- **Hugging Face** – Referenced initially during experimentation and API testing  
+  https://huggingface.co
+
+- **Python** – Programming language used for pipeline implementation  
+  https://www.python.org
+
+- **Git & GitHub** – Version control and project repository hosting  
+  https://git-scm.com  
+  https://github.com
+
+---
+
 ## 👤 Author
 
 Janhavi Naik 
 janhavi.141620@gmail.com
+
